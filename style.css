@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('default.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-display,
+#forecast-display {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(5, 5, 5, 0.8);
+    border-radius: 5px;
+    color: white;
+
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+}
